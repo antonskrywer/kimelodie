@@ -1,0 +1,59 @@
+Codebook: The Performance of Creative AI Systems;;;;;
+;;;;;
+ID and Consent;;;;;
+Variable;Variable Label;Response Code;Response Label;Variable Type;Input Type
+SERIAL;Participant code;;;TEXT;TXT
+DA01;Informed consent in processing of data;1;Yes;NOMINAL;MC
+DA01;DAS;2;No;NOMINAL;MC
+DA01;DAS;-9;N.A.;NOMINAL;MC
+;;;;;
+"Rating Items; Note: Every Melody was rated with the same four items (starting with ""F""), the appendix (e.g. ""01"") refers to the specific rating variable";;;;;
+Variable;Variable Label;Response Code;Response Label;Variable Type;Input Type
+F*_01;Rating: ... is musically convincing.;1;not at all [0];ORDINAL;MC
+F*_01;Rating: ... is musically convincing.;2;[1];ORDINAL;MC
+F*_01;Rating: ... is musically convincing.;3;[2];ORDINAL;MC
+F*_01;Rating: ... is musically convincing.;4;[3];ORDINAL;MC
+F*_01;Rating: ... is musically convincing.;5;very much [4];ORDINAL;MC
+F*_01;Rating: ... is musically convincing.;-9;N.A.;ORDINAL;MC
+F*_02;Rating: ... Is musically logical and meaningful.;1;not at all [0];ORDINAL;MC
+F*_02;Rating: ... is musically logical and meaningful.;2;[1];ORDINAL;MC
+F*_02;Rating: ... is musically logical and meaningful.;3;[2];ORDINAL;MC
+F*_02;Rating: ... is musically logical and meaningful.;4;[3];ORDINAL;MC
+F*_02;Rating: ... is musically logical and meaningful.;5;very much [4];ORDINAL;MC
+F*_02;Rating: ... is musically logical and meaningful.;-9;N.A.;ORDINAL;MC
+F*_03;Rating: ... is interesting.;1;not at all [0];ORDINAL;MC
+F*_03;Rating: ... is interesting.;2;[1];ORDINAL;MC
+F*_03;Rating: ... is interesting.;3;[2];ORDINAL;MC
+F*_03;Rating: ... is interesting.;4;[3];ORDINAL;MC
+F*_03;Rating: ... is interesting.;5;very much [4];ORDINAL;MC
+F*_03;Rating: ... is interesting.;-9;N.A.;ORDINAL;MC
+F*_04;Rating: ... I like the melody.;1;not at all [0];ORDINAL;MC
+F*_04;Rating: ... I like the melody.;2;[1];ORDINAL;MC
+F*_04;Rating: ... I like the melody.;3;[2];ORDINAL;MC
+F*_04;Rating: ... I like the melody.;4;[3];ORDINAL;MC
+F*_04;Rating: ... I like the melody.;5;very much [4];ORDINAL;MC
+F*_04;Rating: ... I like the melody.;-9;N.A.;ORDINAL;MC
+;;;;;
+"Decision items; Note: AI compositions";;;;;
+Variable;Variable Label;Response Code;Response Label;Variable Type;Input Type
+HK* / KH*;Human or machine: definitely human/definitely machine;1;definitly human [1];ORDINAL;MC
+HK* / KH*;Human or machine: definitely human/definitely machine;2;[2];ORDINAL;MC
+HK* / KH*;Human or machine: definitely human/definitely machine;3;[3];ORDINAL;MC
+HK* / KH*;Human or machine: definitely human/definitely machine;4;[4];ORDINAL;MC
+HK* / KH*;Human or machine: definitely human/definitely machine;5;[5];ORDINAL;MC
+HK* / KH*;Human or machine: definitely human/definitely machine;6;[6];ORDINAL;MC
+HK* / KH*;Human or machine: definitely human/definitely machine;7;[7];ORDINAL;MC
+HK* / KH*;Human or machine: definitely human/definitely machine;8;definitly machine [8];ORDINAL;MC
+HK* / KH*;Human or machine: definitely human/definitely machine;-9;N.A.;ORDINAL;MC
+;;;;;
+Sociodemographic variables;;;;;
+Variable;Variable Label;Response Code;Response Label;Variable Type;Input Type
+SD05;Gender;1;female;NOMINAL;MC
+SD05;Gender;2;male;NOMINAL;MC
+SD05;Gender;3;diverse;NOMINAL;MC
+SD05;Gender;-9;N.A.;NOMINAL;MC
+SD06_01;Age: How old are you? … in years;;;METRIC;TXT
+SD07;Musical identity: For how long did you take music or instrumental lessons and/or made music daily?;1;Up to 6 years.;NOMINAL;MC
+SD07;Musical identity: For how long did you take music or instrumental lessons and/or made music daily?;2;6 to 10 years.;NOMINAL;MC
+SD07;Musical identity: For how long did you take music or instrumental lessons and/or made music daily?;3;More than 10 years.;NOMINAL;MC
+SD07;Musical identity: For how long did you take music or instrumental lessons and/or made music daily?;-9;N.A.;NOMINAL;MC
